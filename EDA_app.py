@@ -1,9 +1,9 @@
-!pip install pandas-profiling
+pip install pandas-profiling
 import pandas_profiling
-!pip show pandas-profiling
-!pip install --upgrade streamlit
-!pip install --upgrade pandas
-!pip install --upgrade pandas-profiling
+pip show pandas-profiling
+pip install --upgrade streamlit
+pip install --upgrade pandas
+pip install --upgrade pandas-profiling
 import streamlit as st 
 import pandas as pd
 from pandas_profiling import ProfileReport
